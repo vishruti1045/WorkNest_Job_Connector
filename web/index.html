@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="worknest">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" href="assets/logo.jpg" type="image/jpg">
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Add Google Identity Services -->
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<meta name="google-signin-client_id" content="YOUR_WEB_CLIENT_ID.apps.googleusercontent.com">
+  <title>WorkNest</title>
+</head>
+<body>
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyD1Bnidy79SSyBfPOxXQCWpzTovKGdHSRU",
+      authDomain: "xyz1-6de24.firebaseapp.com",
+      projectId: "xyz1-6de24",
+      storageBucket: "xyz1-6de24.appspot.com",
+      messagingSenderId: "1078359871583",
+      appId: "1:1078359871583:web:76f3460661835096a64bea" // make sure it matches firebase_options.dart
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

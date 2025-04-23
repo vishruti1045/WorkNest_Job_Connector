@@ -1,0 +1,28 @@
+name: worknest
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.5.0
+  google_sign_in: ^5.0.7
+  cloud_firestore: ^4.14.0
+  cupertino_icons: ^1.0.8
+  email_validator: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg  # Make sure the image is in the assets folder
