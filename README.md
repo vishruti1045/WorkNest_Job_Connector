@@ -31,25 +31,25 @@ Flutter (Dart)
 1.	## Login Screen
 ![Login](assets/login1.png)
  
-2.	##Registration
+2.	## Registration
   ![Register](assets/register.png)
  
-3.	##Home / Feed Screen
+3.	## Home / Feed Screen
     ![Home](assets/splash.png)
  
-4.	##Job Listing Page
+4.	## Job Listing Page
   ![list_job](assets/list.jpg)
 
-6.	Search page
+6.	##Search page
   ![search](assets/search_2.png)
   
-7.	Job Detail View
+7.	##Job Detail View
    ![deatil](assets/job_desc.png)
  
-8.	Profile pages
+8.	##Profile pages
   ![profile](assets/rec_pro.png)
  
-9.	Profile pages
+9.	##Profile pages
   ![profile](assets/seek_pro.png)
  
 ________________________________________
