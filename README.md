@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f9b7892b-c6f7-4481-abda-81bf26300ec2)# WorkNest-Job Connector
+# WorkNest-Job Connector
 
 WorkNest is a modern, user-friendly Flutter-based job portal app designed to connect job seekers with employers. Whether you're hiring or looking for your dream job, WorkNest offers a seamless and intuitive experience on mobile.
 
